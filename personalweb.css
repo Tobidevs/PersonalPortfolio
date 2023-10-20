@@ -19,15 +19,16 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    
     color: white;
-    
 }
 .headerbar section{
     width: 350px;
     display: flex;
     justify-content: center; 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'sans-serif';
+}
+.navigation h2{
+    font-weight: 300;
 }
 #nav{
     justify-content: space-between;
@@ -35,15 +36,10 @@ body{
 #socials{
     justify-content: space-evenly;
 }
-#socials img{
-    background-size: cover;
-}
 .socials img{
     height: 30px;
+    background-size: cover;
 }
-.title h1{
-    font-size: 40px;
-} 
 .mainpagebox{
     height: 1000px;
     border: var(--border);
