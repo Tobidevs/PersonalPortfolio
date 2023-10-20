@@ -12,31 +12,49 @@ html{
     --border: 5px solid;
 }
 body{
-    background-color: var(--jet);
-}
+    background-color: var(--black);
+} 
 .headerbar{
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border: var(--border)
+    
+    color: white;
+    
 }
 .headerbar section{
     width: 350px;
     display: flex;
-    justify-content: center; /** this might cause problems in navigation */
-    align-items: center;
+    justify-content: center; 
+    font-family: 'Poppins', sans-serif;
 }
 #nav{
     justify-content: space-between;
 }
 #socials{
     justify-content: space-evenly;
-    
+}
+#socials img{
+    background-size: cover;
 }
 .socials img{
     height: 30px;
 }
 .title h1{
     font-size: 40px;
+} 
+.mainpagebox{
+    height: 1000px;
+    border: var(--border);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.mainpage{
+    background-image: url(./images/Untitled\ design\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1600px;
+    height: 1600px;
 }
