@@ -58,35 +58,3 @@ body{
     width: 1600px;
     height: 900px;
 }
-.topblankspace{
-    height: 160px
-}
-.titlepage{
-    height: 400px;
-    display: flex;
-    flex-flow: column;
-}
-.titlepage section{
-    width: 100%;
-    color: white;
-    display: flex;
-    height: 120px;
-    justify-content: center;
-}
-.row1 h1{
-    font-size: 120px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    
-}
-.row2 h1{
-    font-size: 120px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-}
-.row3 h1{
-    font-size: 120px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    color: var(--brightindigo);
-}
