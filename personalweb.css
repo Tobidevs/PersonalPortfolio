@@ -4,7 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
-    --white: rgb(255, 255, 250);
+    --white: rgb(215, 211, 255);
     --gray: rgb(81, 80, 82);
     --black: rgb(0, 1, 3);
     --jet: rgb(51, 49, 56);
@@ -54,7 +54,7 @@ body{
     background-repeat: no-repeat ;
 }
 .mainpagebox{
-    height: 2000px;
+    height: 905px;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -99,3 +99,10 @@ body{
     color: var(--brightindigo);
 }
 
+
+
+
+.aboutpage{
+    height: 300px;
+    background-color: var(--brightindigo);
+}
