@@ -10,7 +10,7 @@ html{
     --jet: rgb(51, 49, 56);
     --red: rgb(255, 49, 46);
     --indigo: rgb(99, 32, 238);
-    --brightindigo: rgb(191, 187, 238);
+    --brightindigo: rgb(191, 187, 238); 
     --border: 5px solid white;
     
 }
@@ -54,7 +54,7 @@ body{
     background-repeat: no-repeat ;
 }
 .mainpagebox{
-    height: 905px;
+    height: 989px;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -65,6 +65,7 @@ body{
     background-size: contain;
     width: 1600px;
     height: 900px;
+    
 }
 .topblankspace{
     height: 160px
@@ -98,11 +99,29 @@ body{
     font-weight: 300;
     color: var(--brightindigo);
 }
+.scrollelementbox{
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
 
+}
+.scrollelement{
+    background-image: url(./images/Untitled\ design\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    width: 120px;
+    display: block;
+}
 
 
 
 .aboutpage{
-    height: 300px;
+    height: 900px;
     background-color: var(--brightindigo);
+    display: flex;
+    
 }
+
